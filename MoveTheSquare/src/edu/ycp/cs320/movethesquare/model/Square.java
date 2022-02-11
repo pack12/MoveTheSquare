@@ -24,7 +24,7 @@ public class Square {
 	}
 	
 	public void setWidth(double width) {
-		this.width = width;
+		this.width = width * 2;
 	}
 	
 	public double getWidth() {
@@ -32,7 +32,7 @@ public class Square {
 	}
 	
 	public void setHeight(double height) {
-		this.height = height;
+		this.height = height * 2;
 	}
 	
 	public double getHeight() {
